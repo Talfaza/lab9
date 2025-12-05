@@ -1,0 +1,28 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.form-section {
+  flex: 0 0 480px; /* Fixed width for the form */
+  position: sticky;
+  top: 24px;
+}
+
+.list-section {
+  flex: 1 1 auto; /* The list will take the remaining space */
+  min-width: 0;
+}
